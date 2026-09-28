@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -53,7 +52,6 @@ class ProfileScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // First Section (Ice cream)
                 Container(
                   height: 140,
                   width: 140,
@@ -78,7 +76,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 50),
 
-                // Second Section (Code)
+
                 Container(
                   height: 140,
                   width: 140,
